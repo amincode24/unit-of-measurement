@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+    border-radius: 7px;
+    margin: 0.5rem 0;
+    outline: none;
+}
+
+.form input:focus {
+    background-color: #89f1ec34;
+    border: 1px solid #89F1EC;
+}
+
+.form.valid input {
+    background-color: #b3ff80b3;
+    border-color: #00cd00;
+}

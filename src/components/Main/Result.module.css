@@ -1,0 +1,10 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.result-title {
+    text-align: center;
+    font-size: 23px;
+}
