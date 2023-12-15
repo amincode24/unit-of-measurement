@@ -12,6 +12,15 @@
     outline: none;
 }
 
+.form input::-webkit-outer-spin-button, 
+.form input::-webkit-inner-spin-button {
+    margin: 0;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+}
+
 .form input:focus {
     background-color: #89f1ec34;
     border: 1px solid #89F1EC;

@@ -40,6 +40,7 @@ const Form = (props) => {
         onChange={inputChangeHandler}
         onBlur={validateInputHandler}
         ref={props.inputRef}
+        min="1"
       />
       <Button type="submit" className={classes.button} disabled={!formIsValid}>
         Calculate
